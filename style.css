@@ -1,0 +1,43 @@
+.dealersCard{
+    position: relative;
+	top: 100px;
+    left: -1%;
+    text-align: center;
+}
+
+.playersCard{
+    position: relative;
+    top: -5px;
+    left: -1%;
+    text-align: center;
+
+}
+
+/*Карта*/
+.cardWithBack{	
+	width: 75px;
+    height: 125px;
+
+    margin-left:15px; 
+
+    border-radius: 15px;
+    background-image: url(img/cardBack.jpg);
+    border: 3px #CCCCCC solid;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.cardWithoutBack{
+	width: 75px;
+    height: 125px;
+
+    margin-left:15px; 
+    text-align: left;
+
+	background:white;
+    border-radius: 15px;
+    border: 3px #CCCCCC solid;
+    display: inline-block;
+    vertical-align: middle;
+}
